@@ -1,0 +1,20 @@
+title: Applied Digitization for Oil & Gas
+description: >-
+  Digitalisation, in its various forms, is slated to transform the landscape of
+  oil & gas operations. This is achieved by adding new game-changing
+  efficiencies and transcending barriers to boost production while containing
+  costs simultaneously. 
+template:
+  repo: applied-digitization-for-oil-and-gas-template
+  name: applied-digitization-for-oil-and-gas
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
